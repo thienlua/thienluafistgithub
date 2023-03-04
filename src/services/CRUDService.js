@@ -13,7 +13,7 @@ return new Promise(async(resolve,reject) => {
     address: data.address,
     phonenumber: data.phonenumber,
     gender: data.gender === '1' ? true : false, 
-    roleid: data.roleid,
+    roled: data.roleId,
         })
     resolve( 'ok create a new user succeed!')
     }catch(e){
